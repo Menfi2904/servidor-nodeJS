@@ -61,8 +61,7 @@ let server = http.createServer((request, respuesta) => {
         .container2 {
             display: flex;
             padding: 40px;
-            text-align: center;
-            width: 400px;
+            width: 300px;
             border-radius: 15px;
             background-image: url(https://www.xtrafondos.com/descargar.php?id=3128&resolucion=2880x1800);
             background-size: 550px;
@@ -71,6 +70,10 @@ let server = http.createServer((request, respuesta) => {
             margin-right: auto;
             margin-left: auto;
             color: white;
+            
+        }
+        h3{
+            text-align: center;
         }
 
         .container3 {
@@ -101,11 +104,15 @@ let server = http.createServer((request, respuesta) => {
     </div>
 
     <div class="container2">
-        <h3>Nombre: Menfi</h3>
-        <h3>Apellido: Garcia</h3>
-        <h3>Telefono: +504525233333333</h3>
-        <h3>Edad: 28</h3>
-        <h3>Pais: Honduras</h3>
+        <h3>Informacion Personal</h3>
+        <ul>
+            <li>Nombre: Menfi</li>
+            <li>Apellido: Garcia</li>
+            <li>Telefono: +504525233333333</li>
+            <li>Edad: 28</li>
+            <li>Pais: Honduras</li>
+        </ul>
+
 
     </div>
 
